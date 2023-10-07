@@ -1,0 +1,40 @@
+@import url ('https://fonts.google.com/css2?family=font-name&family=optional-2nd-font-name&display=swap')
+
+:root {
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p{
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Use a relative width CSS declaration for the hero image and make the
+image a block to fill the width of the container.*/
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, article {
+    position: absolute;
+}
+
+article img {
+    float:right
+}
+
+article {
+    background-color: white;
+    opacity: inherit;
+}
