@@ -62,3 +62,48 @@ aside h2 {
     top: 47px;
     left: 150px;
 }
+
+/* Refactor the CSS for the combined rule of header, footer to have a maximum width of 840 pixels and to center the content on the page. */
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-variant: 700;
+    color: white
+}
+
+h1 {
+    border-bottom: 1px solid blue;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-column: 1/2;
+}
