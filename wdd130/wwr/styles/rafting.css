@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Tinos&display=swap');
 
 :root{
     --primary-color: #8ecae6;
@@ -6,8 +6,8 @@
     --accent1-color: #023047;
     --accent2-color: #ffb703;
 
-    --heading-font: 'Sofia', sans-serif;
-    --paragraph-font: 'Sofia', sans-serif;
+    --heading-font: 'Tinos', serif;
+    --paragraph-font: 'Tinos', serif;
 
     --nav-background-color: #fb8500;
     --nav-link-color: #8ecae6;
