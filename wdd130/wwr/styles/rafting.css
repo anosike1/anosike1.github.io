@@ -58,6 +58,11 @@ article {
 
 header {
     display: grid;
+    align-items: center;
+}
+
+header img {
+    grid-column: 1/2;
 }
 
 nav {
@@ -66,6 +71,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    grid-column: 2/3;
 }
 
 nav a {
@@ -81,3 +87,18 @@ nav a {
 main img {
     float: right;
 }
+
+section img {
+    width: 20%;
+    height: 300px;
+}
+
+/* div.footer {
+    display: flex;
+    align-items: center;
+} */
+
+div.social {
+    float: right;
+}
+
