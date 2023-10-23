@@ -1,113 +1,29 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Tinos&display=swap');
 
-main {
-    max-width: 840px;
-}
-
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-}
-
-aside img {
-    width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
-    height: auto;
-}
-
-p {
-    padding: 0;
-}
-
-footer {
-    margin-top: 1em;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
-/* Class Selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid rgb (0, 0, 0, 0.1);
-    padding: 1rem;
-    background-color: #ddd;
-    color: #000;
-}
-
-aside {
-    width: 20em;
-    text-align: center;
-    position: relative;
-}
-
-main img {
-    float: right;
-}
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
-/* Refactor the CSS for the combined rule of header, footer to have a maximum width of 840 pixels and to center the content on the page. */
-
-header, .grid, footer {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-nav {
-    background-color: steelblue;
-    padding: 1rem;
+div {
+    background-color:aliceblue;
+    padding: 30px;    
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
 }
 
-nav a {
-    display: block;
-    padding: 0.5rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-variant: 700;
-    color: white
+#q1, #q2, #q3, #q4, #button {
+    width: 500px;
+
 }
 
 h1 {
-    border-bottom: 1px solid blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    text-align: center;
 }
 
-.grid {
-    display: grid;
-    align-items: center;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-footer {
-
+button {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    padding: 10px;
+    width: 300px;
 }
