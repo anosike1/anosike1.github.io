@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Tinos&display=swap');
+
+div {
+    background-color:aliceblue;
+    padding: 30px;    
+    display: flex;
+    justify-content: center;
+}
+
+#q1, #q2, #q3, #q4, #button {
+    width: 500px;
+
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 1px;
+    padding: 10px;
+    width: 300px;
+}
